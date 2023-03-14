@@ -1,0 +1,49 @@
+.box1 {
+    background-color: red;
+    height: 300px;
+}
+
+.box2 {
+    background-color: rgb(182, 2, 218);
+    height: 300px;
+}
+
+.box3 {
+    background-color: rgba(14, 142, 23, 0.428);
+    height: 300px;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.23);
+    transition: .25s all;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(142, 121, 121, 0.16), 0 4px 10px rgba(0, 0, 0, 0.23);
+    scale: 1.1;
+    transition: .25s all;
+}
+
+.icon-item {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+    display: block;
+    text-align: center;
+    background: #FEC106;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+.icon-item:last-child {
+    border-right: none;
+}
+
+.icon-item .fa {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icon-item a {
+    color: #fff;
+}

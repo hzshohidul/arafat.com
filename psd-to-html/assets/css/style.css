@@ -1,0 +1,8 @@
+body{
+	margin: 0;
+}
+.header-area{
+	background-color: #ccc;
+	min-height: 500px;
+	/* background-image: url('../images/banner/banner.jpg'); */
+}
