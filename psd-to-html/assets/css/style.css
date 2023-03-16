@@ -1,8 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
 body{
 	margin: 0;
 }
-.header-area{
-	background-color: #ccc;
-	min-height: 500px;
-	/* background-image: url('../images/banner/banner.jpg'); */
+.white{
+	color: #fff;
 }
+.black{
+	color: #000;
+}
+.broun{
+	color: #43200C;
+}
+.header-area {
+    background-color: #ccc;
+    height: 570px;
+    /* background-image: url('../images/banner/banner.jpg'); */
+    overflow: hidden;
+    padding: 20px;
+}
+.header-area .logo{
+
+}
+.header-area .logo a{
+	
+}
+.header-area .logo a img {
+    width: 180px;
+}
+.contact-us {
+    
+}
+.contact-us img {
+    width: 33px;
+    overflow: hidden;
+    margin-right: 3px;
+}
+.contact-us h3 {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+.information{
+	text-align: right;
+}
+.main-menu{
+    float: right;
+}
+.main-menu ul{}
+.main-menu ul li {
+    margin-right: 35px;
+    text-align: center;
+}
+.main-menu ul li:last-child {
+    margin-right: 0px;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    transform: up;
+    text-transform: uppercase;
+    color: #43200C;
+    /* font-weight: 700; */
+    font-size: 14px;
+    height: 10px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.9px;
+}
+
+.banner-content{
+    margin-top: 120px;
+}
+.banner-content p {
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    border: 2px dashed #43200C;
+    color: #43200C;
+    display: inline;
+    padding: 5px;
+    margin: 0;
+}
+.banner-content h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    color: #43200C;
+    margin: 0;
+    letter-spacing: 2.5px;
+    margin-top: 14px;
+    text-shadow: 2px 3px 0px #fff;
+}
+.banner-content h5 {
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+    text-transform: uppercase;
+    color: #43200C;
+    font-size: 35px;
+    text-shadow: 2px 3px 0px #fff;
+}
+.offer-position{
+    position: relative;
+}
+.offer {
+    background: #DE1C1B;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    /* position: relative; */
+    color: #fff;
+    position: absolute;
+    padding: 8px;
+    font-family: 'Bebas Neue', cursive;
+    left: 120px;
+    bottom: 120px;
+}
+.offer h3 {
+    margin: 0;
+    font-size: 34px;
+}
+.offer h3 span {
+    font-size: 22px;
+}
+.offer p {
+    margin: 0;
+    letter-spacing: 5.4px;
+    font-size: 20px;
+}
+.boder-dashed {
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.buerger-image{}
+.buerger-image img {
+    width: 650px;
+}
+
+/* ------------------ header area css end---------- */
+
+.about-section{
+    background-color: #ffffff;
+}
+.bg-image-big{
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    border-radius: 5px;
+    background-size: cover;
+}
+.bg-image-small-1{
+    width: 100%;
+    height: 140px;
+    background-position: center center;
+    border-radius: 5px;
+    background-size: cover;
+}
+.bg-image-small-2{
+    width: 100%;
+    height: 140px;
+    background-position: center center;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-size: cover;
+}
+.about-padding{
+    padding: 80px;
+}
+
+/* ------------------ about area css end---------- */
+.shop-section{
+    height: 600px;
+    background-color: #e81414;
+}
+/* ------------------ shop area css end---------- */
