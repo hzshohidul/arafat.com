@@ -259,8 +259,101 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: .8px;
 }
 /* ------------------ shop area css end---------- */
-
 .testimonial-section{
     min-height: 400px;
     padding: 100px 0;
 }
+.testimonial-image img{
+    width: 100%;
+    overflow: hidden;
+}
+.testimonial-item{
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.testimonial-content p{
+    margin-top: 20px;
+}
+/* ------------------ testimonial area css end---------- */
+.contact-section{
+    min-height: 550px;
+    background-image: url('../images/contact/1.png');
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-heading h5{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+.contact-heading h3{
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 33px;
+    color: #3d2514;
+    margin-top: 10px;
+}
+.order-contact{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.order-contact input{
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    float: left;
+}
+.order-contact button{
+    width: 40%; 
+}
+.order-contact input:nth-child(2), .order-contact input:nth-child(4){
+    margin-right: 0;
+}
+/* ------------------ contact-section area css end---------- */
+.footer-area{
+    min-height: 350px;
+    background-image: url('../images/footer/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+.footer-left{
+
+}
+.copyright{
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.footer-left p{
+    color: #fff;
+    margin: 45px 0 0 40px;
+}
+.footer-left img {
+    width: 260px;
+    margin: 45px 0 0 40px;
+}
+.footer-right {
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.footer-right p{
+    color: #fff;
+    margin: 0;
+}
+/* ------------------ footer-section area css end---------- */
